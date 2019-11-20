@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-searchbar color="primary" placeholder="search here"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment >
+    <ion-segment-button value="friends">
+      <ion-label>Friends</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="enemies">
+      <ion-label>Enemies</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="family">
+      <ion-label>family</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <ion-segment value="home">
+    <ion-segment-button>
+      <ion-icon name="home"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button checked>
+      <ion-icon name="heart"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button>
+      <ion-icon name="pin"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+  <ion-segment>
+    <ion-segment-button value="camera" color="primary">
+      <ion-icon name="camera"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button value="bookmark">
+      <ion-icon name="bookmark"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title><h1>this is footer</h1></ion-title>
+  </ion-toolbar>
+  <ion-button color="secondary">
+    <ion-icon slot="icon-only" name="more"></ion-icon>
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="icon-only" name="search"></ion-icon>
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="icon-only" name="contact"></ion-icon>
+  </ion-button>
+  <ion-buttons slot="start">
+    <ion-back-button></ion-back-button>
+  </ion-buttons>
+</ion-footer>
